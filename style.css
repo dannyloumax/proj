@@ -1,0 +1,93 @@
+
+.post-phone {
+    width: 700px;
+    height: 670px;
+    margin: auto;
+    background-color: aliceblue;
+    border: 1px white;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 550px;
+    height: 630px;
+    padding: 20px 20px 5px;
+    background-color: white;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+}
+
+.post-header {
+    display: flex;
+
+}
+
+.post-header-icon {
+    width: 50px;
+    height: 50px;
+}
+
+img {
+    border: 1px white;
+    border-radius: 20px;
+
+}
+
+.post-header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2px 10px;
+    font-size: 14px;
+}
+
+.post-header-text-date {
+    color: darkgray;
+    font-size: 12px;
+
+}
+
+.post-text {
+    padding: 5px;
+}
+
+.post-body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.post-main {
+    width: 500px;
+    height: 450px;
+    background: url("main.jpg") no-repeat;
+    background-size: contain;
+}
+
+.post-footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 500px;
+    height: 60px;
+    border-top: 1px  gainsboro solid;
+    margin: auto;
+
+}
+
+.post-footer-likes {
+    font-size: 14px;
+    color: cornflowerblue;
+
+}
+
+.post-footer-views {
+    font-size: 14px;
+    color: darkgrey;
+
+}
+
+
